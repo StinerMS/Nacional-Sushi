@@ -11,8 +11,16 @@
 }
 
 .social-icon {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  border-color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  transition: all 400ms;
+}
+.social-icon:hover {
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  border-color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .service-fs-icons {
