@@ -1,0 +1,12 @@
+#mainNav.navbar-shrink .nav-logotipo {
+  filter: grayscale(0) brightness(1);
+  transition: all 300ms;
+}
+#mainNav:not(.navbar-shrink) .nav-logotipo {
+  filter: grayscale(1) brightness(5);
+  transition: all 300ms;
+}
+.service-fs-icons {
+    font-size: 40px;
+    color: #ad2d2d;
+}
