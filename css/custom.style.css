@@ -60,7 +60,7 @@
   background-size: cover;
   background-position: 0px 0px;
   animation: Apresentacao 25s infinite;
-  animation-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.60, 1);
   animation-direction: alternate-reverse;
 }
 
