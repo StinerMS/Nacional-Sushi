@@ -1,9 +1,12 @@
+@media (min-width: 992px) {
 
 #mainNav .nav-logotipo , #mainNav{
   transition: filter 600ms;
 }
 #mainNav:not(.navbar-shrink) .nav-logotipo {
   filter: grayscale(1) brightness(5);
+}
+
 }
 
 .logo-footer {
