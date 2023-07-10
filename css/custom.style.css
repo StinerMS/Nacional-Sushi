@@ -72,3 +72,7 @@
     background-position: 0px bottom;
   }
 }
+
+.text-muted {
+  color: #abbbc8 !important;
+}
